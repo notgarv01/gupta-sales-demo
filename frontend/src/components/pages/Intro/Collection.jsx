@@ -1,10 +1,9 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-
 const products = [
-  { id: 1, name: 'Assam Gold Tea', price: '₹450', image: 'Chai patti.png', cat: 'Chai Patti' },
-  { id: 2, name: 'Marwari Mehendi', price: '₹220', image: 'Mehendi regular cone.webp', cat: 'Mehendi' },
-  { id: 3, name: 'Herbal Manjan', price: '₹180', image: 'Manjan.webp', cat: 'Wellness' },
+  { id: 1, name: 'Assam Gold Tea', price: '₹450', image: '/ProductImages/Chai pattii.png', cat: 'Chai Patti' },
+  { id: 2, name: 'Marwari Mehendi', price: '₹220', image: '/ProductImages/Mehendi regular cone.webp', cat: 'Mehendi' },
+  { id: 3, name: 'Herbal Manjan', price: '₹180', image: '/ProductImages/Manjan.webp', cat: 'Manjan' },
 ];
 
 const Collection = () => {
@@ -14,6 +13,7 @@ const Collection = () => {
         <h2 className="text-2xl sm:text-3xl md:text-4xl font-serif italic text-zinc-100 mb-8 md:mb-12">The Archive <span className="text-zinc-600 text-xs md:text-sm not-italic ml-2 md:ml-4 tracking-[0.3em] uppercase">2026 Edition</span></h2>
         
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
+
           {products.map((product) => (
             <motion.div 
               key={product.id}
