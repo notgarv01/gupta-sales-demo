@@ -1,9 +1,9 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 const products = [
-  { id: 1, name: 'Assam Gold Tea', price: '₹450', image: '/ProductImages/Chai pattii.png', cat: 'Chai Patti' },
-  { id: 2, name: 'Marwari Mehendi', price: '₹220', image: '/ProductImages/Mehendi regular cone.webp', cat: 'Mehendi' },
-  { id: 3, name: 'Herbal Manjan', price: '₹180', image: '/ProductImages/Manjan.webp', cat: 'Manjan' },
+  { id: 1, name: 'Assam Gold Tea', price: '₹450', image: 'Chai pattii.png', cat: 'Chai Patti' },
+  { id: 2, name: 'Marwari Mehendi', price: '₹220', image: 'Mehendi regular cone.webp', cat: 'Mehendi' },
+  { id: 3, name: 'Herbal Manjan', price: '₹180', image: 'Manjan.webp', cat: 'Manjan' },
 ];
 
 const Collection = () => {
